@@ -3,7 +3,7 @@ import axios from "axios";
 import Movies from "../../components/Movies/Movies.module";
 import Hero from "../../components/Hero/Hero.module";
 import ENDPOINTS from "../../components/utils/constants/endpoints"; 
- 
+
 function NowPlaying() {
   // Membuat state movies
   const [movies, setMovies] = useState([]);  
